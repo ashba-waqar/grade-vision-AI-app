@@ -28,7 +28,7 @@ const AuthPage = () => {
     }
 
     
-    const url = isLogin ? 'http://127.0.0.1:5000/login' : 'http://127.0.0.1:5000/signup';
+    const url = isLogin ? 'https://grade-vision-ai-app-3.onrender.com/login' : 'https://grade-vision-ai-app-3.onrender.com/signup';
 
     
     const payload = isLogin 

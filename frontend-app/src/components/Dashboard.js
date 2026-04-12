@@ -66,7 +66,7 @@ const Dashboard = () => {
     formData.append('file', batchFile);
 
     try {
-      const response = await fetch('http://127.0.0.1:5000/predict_batch', {
+      const response = await fetch('https://grade-vision-ai-app-3.onrender.com/predict_batch', {
         method: 'POST',
         body: formData,
       });
