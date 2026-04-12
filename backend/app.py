@@ -14,7 +14,7 @@ CORS(app)
 print("Training AI Model...")
 try:
     
-    df = pd.read_csv('real_student_data.csv')
+    df = pd.read_csv('Real_student_data.csv')
     
     
     X = df[['attendance', 'assignments', 'quizzes', 'midterms', 'study_hours']]
