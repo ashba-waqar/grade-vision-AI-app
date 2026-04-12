@@ -59,7 +59,7 @@ const AuthPage = () => {
         setError(data.message);
       }
     } catch (err) {
-      setError("Backend server se connect nahi ho raha. Check karein ke Python chal raha hai?");
+      setError("Backend server is not connected.");
     }
   };
   return (
